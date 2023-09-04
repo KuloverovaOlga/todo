@@ -74,37 +74,6 @@ const listener = (e) => {
             saveLocalStoradge();
         });
     }
-    //     item.dataset.index = i;
-    //     let start;
-    //     let end;
-    //     // item.addEventListener(
-    //     //     'touchmove',
-    //     //     () => {
-    //     //         if(i<0) {
-    //     //             todoList.insertBefore(items[i], items[0]);
-    //     //         } else if(i>item.length) {
-    //     //             todoList.insertBefore(items[i], items[item.length -1]);
-    //     //         } else {
-    //     //             todoList.insertBefore(items[i], items[i-1]);
-    //     //         }
-
-    //     //         console.log(items[i]);
-    //     //         console.log(items[i - 1]);
-    //     //     },
-    //     //     { passive: 'true' }
-    //     // );
-
-    //     item.addEventListener('touchstart', (e) => {
-    //         start = e.target.parentElement.dataset.index;
-    //         console.log(start);
-    //     });
-    //     item.addEventListener('touchmove', (e) => {});
-    //     item.addEventListener('touchend', (e) => {
-
-    //         end = e.target.parentElement.dataset.index;
-    //         console.log(end);
-    //     });
-    // });
 };
 
 const createTask = (e) => {
