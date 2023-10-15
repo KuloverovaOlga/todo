@@ -74,10 +74,6 @@ body.dark-theme .tumbler {
     transform: translateX(calc(100% - 2px));
 }
 
-body.dark-theme.post {
-    border-bottom: 1px dashed darken(white, 15%);
-}
-
 .todo {
     max-width: 460px;
     width: 100%;
@@ -135,7 +131,7 @@ body.dark-theme.post {
     width: 50px;
     height: 30px;
     background-color: var(--button-color);
-    border: darken(#aae2f1, 40);
+
     border-radius: 30px;
     display: flex;
     justify-content: space-between;
